@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://chanho_lee.github.io/sitemap.xml
+Sitemap: https://Chan-b0b.github.io/sitemap.xml
