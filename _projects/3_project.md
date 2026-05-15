@@ -1,12 +1,53 @@
 ---
 layout: page
-title: project 3 with very long name
-description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+title: Humanoid Manipulation
+description: Vision-based pick-and-place manipulation with Unitree G1 in manufacturing environments
+img:
 importance: 3
-category: work
+category: robotics
 ---
+
+## Humanoid Manipulation
+
+**Platform:** Unitree G1 Humanoid  
+**Method:** VLA fine-tuning (GR00T, SmolVLA, ACT) + IK-based control  
+**Application:** Manufacturing PoC (LG Chem, LG Energy Solution, Market Kurly)
+
+### Overview
+
+Developed and deployed manipulation policies for the Unitree G1 humanoid robot targeting real manufacturing tasks. Combined VLA model fine-tuning with IK-based control for robust, deployable solutions.
+
+**Key achievements:**
+- Pick-and-place in unstructured manufacturing environments
+- VLA models (GR00T, SmolVLA, ACT) fine-tuned for manufacturing-specific tasks
+- Successfully deployed across multiple client PoCs
+
+**PoC Applications:**
+- **LG Chem** — Unitree A2 quadruped + arm for sample bottle collection automation
+- **LG Energy Solution** — Battery cell sorting with IK-based control
+- **Market Kurly** — Tote box stacking for logistics automation
+
+### Demo
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/manipulation/G1_Manipulation.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+    </div>
+</div>
+<div class="caption">
+    Unitree G1 humanoid manipulation policy for manufacturing pick-and-place tasks.
+</div>
+
+### Technical Stack
+
+| Component | Detail |
+|-----------|--------|
+| Robot | Unitree G1, Unitree A2 |
+| VLA Models | GR00T, SmolVLA, ACT |
+| Control | IK-based trajectory + model inference |
+| Data pipeline | SAM2-based auto-labeling, LeRobot |
+| Organization | LG CNS Future Robotics Lab |
+
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
