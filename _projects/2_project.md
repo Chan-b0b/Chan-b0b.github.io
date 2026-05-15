@@ -30,11 +30,11 @@ Independently developed an **IK+IL combined learning framework** that significan
 
 ### Demo
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row mt-3 justify-content-center">
+    <div class="col-4 mt-3 mt-md-0">
         {% include video.liquid path="assets/video/ik_il/IK_IL.webm" class="img-fluid rounded z-depth-1" controls=true %}
     </div>
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-4 mt-3 mt-md-0">
         {% include video.liquid path="assets/video/ik_il/ik.webm" class="img-fluid rounded z-depth-1" controls=true %}
     </div>
 </div>

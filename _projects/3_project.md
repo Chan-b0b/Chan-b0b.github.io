@@ -29,8 +29,8 @@ Developed and deployed manipulation policies for the Unitree G1 humanoid robot t
 
 ### Demo
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
+<div class="row mt-3 justify-content-center">
+    <div class="col-4 mt-3 mt-md-0">
         {% include video.liquid path="assets/video/manipulation/G1_Manipulation.mp4" class="img-fluid rounded z-depth-1" controls=true %}
     </div>
 </div>
