@@ -30,7 +30,5 @@ My research interests span **reinforcement learning**, **imitation learning**, *
 
 **Highlights:**
 - 🤖 Deployed Unitree G1/H1-2 humanoid locomotion & manipulation policies achieving **95% pick-and-place success**
-- 🔬 Independently developed an **IK+IL learning framework** that reduces teleoperation dependency
 - 📦 Manufacturing PoCs for LG Chem, LG Energy Solution, Market Kurly, and Daehan Steel
-- 📄 First-author publications in **IEEE Access** and JAIRA
 - 🏆 ETRI Spectrum Challenge Excellence Award (2022, 2023)
