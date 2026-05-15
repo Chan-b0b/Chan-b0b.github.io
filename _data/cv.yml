@@ -1,18 +1,125 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
+  name: Chanho Lee
+  label: AI Scientist
+  email: 2015170731@korea.ac.kr
+  location: Seoul, Republic of Korea
   image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  summary: AI Scientist at LG CNS Future Robotics Lab, specializing in VLA/VLM models for humanoid robot control. Full-cycle experience from simulation environment construction to real-robot deployment and manufacturing PoC. Expert in reinforcement learning, Sim-to-Real transfer, and efficient data pipelines.
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
     - network: GitHub
-      username: example
-    - network: LinkedIn
-      username: example
+      username: Chan-b0b
+
+  sections:
+    Education:
+      - institution: Korea University
+        location: Seoul, Republic of Korea
+        url: https://www.korea.ac.kr/
+        area: Industrial and Management Engineering
+        studyType: M.S.
+        start_date: 2021-03
+        end_date: 2023-08
+        score: "4.19/4.5"
+        highlights:
+          - "Thesis: Dynamic-Persistent CSMA: A Reinforcement Learning Approach for Multi-User Channel Access"
+          - "Lab: Supply Chain and Value Network Analysis Lab (Advisor: Prof. Taesu Cheong)"
+          - "Visiting Scholar: Drexel University, USA (Dec 2022 – Aug 2023, KIAT-funded)"
+
+      - institution: Korea University
+        location: Seoul, Republic of Korea
+        url: https://www.korea.ac.kr/
+        area: "Mechanical Engineering (double major: Industrial & Management Engineering)"
+        studyType: B.S.
+        start_date: 2015-03
+        end_date: 2021-02
+        score: "3.92/4.5"
+
+    Experience:
+      - company: LG CNS
+        position: AI Scientist
+        location: Seoul, Republic of Korea
+        start_date: 2024-12
+        end_date: present
+        summary: "Future Robotics Lab — Research on VLA-based humanoid robot solutions for manufacturing."
+        highlights:
+          - "IK+IL learning framework (independently developed): 95% pick-and-place success on Unitree G1, reduced teleoperation dependency"
+          - "SAM2-based auto-labeling system: text input → automatic YOLO training data generation, eliminating manual labeling"
+          - "Real-robot deployment: Unitree G1 and H1-2 humanoid locomotion and manipulation policies"
+          - "VLA fine-tuning: GR00T, SmolVLA, ACT models adapted for manufacturing domain"
+          - "PoC clients: LG Chem (quadruped robot), LG Energy Solution (battery cell sorting), Market Kurly (bin stacking logistics), Daehan Steel"
+          - "Global collaboration: technical discussions with Skild, ARI Robotics (in English)"
+
+      - company: LG CNS
+        position: Vision AI Engineer
+        location: Seoul, Republic of Korea
+        start_date: 2023-11
+        end_date: 2024-12
+        summary: "Vision AI Business Team — Developed steel scrap grading AI for Daehan Steel."
+        highlights:
+          - "Accuracy 70% → 93% (+23%p) by applying pixel-aligned structure from 3D reconstruction domain"
+          - "Optimized to 30-second processing per truck; fully deployed to production"
+          - "Joint venture established with client; system commercialized"
+          - "CLIP-based VLM experiments: scrap characteristic–image matching"
+          - "Data pipeline optimization: enabled full daily throughput processing"
+
+    Publications:
+      - title: "Dynamic-Persistent CSMA: A Reinforcement Learning Approach for Multi-User Channel Access"
+        authors:
+          - Chanho Lee
+          - Seungkeun Park
+          - Taesu Cheong
+        publisher: IEEE Access
+        releaseDate: 2024-11-27
+        url: https://ieeexplore.ieee.org/document/10771609
+        summary: "Proposed DP-CSMA using hierarchical RL with LSTM-based VAE + SAC. Achieves zero-shot generalization: trained on 5–10 agents, achieves top throughput in 100-agent environments."
+
+      - title: "Is View Planning Always Effective for 3D Reconstruction?"
+        authors:
+          - Chanho Lee
+          - David Han
+        publisher: Journal of Artificial Intelligence Research and Applications (JAIRA)
+        releaseDate: 2025-11-30
+        summary: "Introduced PIFu-A (pixel-aligned implicit function + attention encoder) for multi-view 3D reconstruction. RL-based next-best-view planning (PPO). View planning is more effective for geometric than semantic models (up to 80% improvement). Validated on ShapeNet (39,699 models, 13 categories)."
+
+    Awards:
+      - title: ETRI Spectrum Challenge Excellence Award (2nd consecutive win)
+        date: 2023
+        awarder: Electronics and Telecommunications Research Institute (ETRI)
+        summary: RL-based wireless channel access control competition
+
+      - title: ETRI Spectrum Challenge Excellence Award
+        date: 2022
+        awarder: Electronics and Telecommunications Research Institute (ETRI)
+        summary: RL-based wireless channel access control competition
+
+    Skills:
+      - name: Languages
+        icon: fa-solid fa-code
+        keywords: "Python ★★★★★, C++ ★★★"
+
+      - name: Deep Learning
+        icon: fa-solid fa-brain
+        keywords: "PyTorch ★★★★★, TensorFlow ★★★"
+
+      - name: Robotics & Simulation
+        icon: fa-solid fa-robot
+        keywords: "Isaac Lab ★★★★, MuJoCo ★★★★, ROS ★★★, Unitree G1/H1-2/A2, Dexmate Vega"
+
+      - name: AI/ML Expertise
+        icon: fa-solid fa-microchip
+        keywords: "PPO, SAC, DAgger, Hierarchical RL, Imitation Learning, Behavior Cloning, VLA (GR00T, SmolVLA, ACT), CLIP, SAM2, YOLO, Pixel-aligned Features, 3D Reconstruction (PIFu)"
+
+      - name: Tools
+        icon: fa-solid fa-wrench
+        keywords: "Git ★★★★★, LeRobot, BlenderProc, Teleoperation pipelines"
+
+    Languages:
+      - name: Korean
+        summary: "Native"
+
+      - name: English
+        summary: "Advanced — TOEFL iBT 104 | Business proficiency | 8-month research residency at Drexel University, USA"
+
 
   address:
     street: 2712 Broadway St
