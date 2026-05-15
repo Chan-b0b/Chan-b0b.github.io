@@ -29,6 +29,14 @@ I received my M.S. in Industrial and Management Engineering from **Korea Univers
 My research interests span **reinforcement learning**, **imitation learning**, **VLA/VLM models**, and **humanoid robot control** — with a strong emphasis on bridging the gap between simulation and real-world deployment.
 
 **Highlights:**
-- 🤖 Deployed Unitree G1/H1-2 humanoid locomotion & manipulation policies achieving **95% pick-and-place success**
+- 🤖 Deployed Unitree G1/H1-2 humanoid locomotion & manipulation policies
 - 📦 Manufacturing PoCs for LG Chem, LG Energy Solution, Market Kurly, and Daehan Steel
 - 🏆 ETRI Spectrum Challenge Excellence Award (2022, 2023)
+
+**Robot Platforms:**
+
+| Type | Platform |
+|------|----------|
+| Humanoid | Unitree G1, Unitree H1-2 |
+| Quadruped | Unitree A2 |
+| Robot Arm | Dexmate Vega, AgileX Piper |

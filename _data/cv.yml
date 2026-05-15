@@ -103,7 +103,7 @@ cv:
 
       - name: Robotics & Simulation
         icon: fa-solid fa-robot
-        keywords: "Isaac Lab ★★★★, MuJoCo ★★★★, ROS ★★★, Unitree G1/H1-2/A2, Dexmate Vega"
+        keywords: "Isaac Lab ★★★★, MuJoCo ★★★★, ROS ★★★, Unitree G1/H1-2/A2, Dexmate Vega, AgileX Piper"
 
       - name: AI/ML Expertise
         icon: fa-solid fa-microchip
