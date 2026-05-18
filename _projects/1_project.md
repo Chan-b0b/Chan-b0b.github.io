@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Humanoid Locomotion
-description: RL-based locomotion on Unitree G1 — from Isaac Lab simulation to real-robot deployment
+description: RL-based locomotion on Unitree G1 / H1-2 — from Isaac Lab simulation to real-robot deployment
 img:
 importance: 1
 category: robotics
@@ -13,6 +13,8 @@ category: robotics
 **Simulation:** Isaac Lab (NVIDIA), MuJoCo  
 **Algorithm:** PPO (Proximal Policy Optimization)
 
+<br>
+
 ### Overview
 
 Trained locomotion control policies for the Unitree G1/H1-2 humanoid robot using reinforcement learning in Isaac Lab simulation, then deployed to the physical robot. The key challenge was closing the sim-to-real gap.
@@ -22,7 +24,11 @@ Trained locomotion control policies for the Unitree G1/H1-2 humanoid robot using
 - Sim-to-Real robustness: compensated for physical asymmetries and hardware noise
 - Policy generalization to unseen environmental disturbances
 
+<br>
+
 ### Demo
+
+<br>
 
 <div class="row mt-3 justify-content-center">
     <div class="col-5 mt-3 mt-md-0">
@@ -40,6 +46,8 @@ Trained locomotion control policies for the Unitree G1/H1-2 humanoid robot using
 <div class="caption">
     Training in Isaac Lab (top-left), sim-to-sim transfer to MuJoCo (top-right), and deployment on real hardware (bottom).
 </div>
+
+<br>
 
 <div class="row mt-3 justify-content-center">
     <div class="col-5 mt-3 mt-md-0">
