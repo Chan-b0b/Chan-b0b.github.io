@@ -1,6 +1,6 @@
 ---
 layout: about
-title: about
+title: About
 permalink: /
 subtitle: AI Scientist · <a href='https://www.lgcns.com/' target='_blank'>LG CNS Future Robotics Lab</a>
 
