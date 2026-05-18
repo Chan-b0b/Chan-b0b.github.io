@@ -59,7 +59,7 @@ ninja.data = [{
               window.location.href = "/books/the_godfather/";
             },},{id: "projects-humanoid-locomotion",
           title: 'Humanoid Locomotion',
-          description: "RL-based locomotion on Unitree G1 — from Isaac Lab simulation to real-robot deployment",
+          description: "RL-based locomotion on Unitree G1 / H1-2 — from Isaac Lab simulation to real-robot deployment",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_project/";
             },},{id: "projects-ik-imitation-learning",
