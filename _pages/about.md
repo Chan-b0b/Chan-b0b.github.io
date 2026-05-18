@@ -43,9 +43,9 @@ My research interests span **reinforcement learning**, **imitation learning**, *
 
 | Type | Platform |
 |------|----------|
-| Humanoid | Unitree G1, Unitree H1-2 |
+| Humanoid | Unitree G1, Unitree H1-2, Dexmate Vega |
 | Quadruped | Unitree A2 |
-| Robot Arm | Dexmate Vega, AgileX Piper |
+| Robot Arm | AgileX Piper, SO-101 |
 
 <br>
 <br>
