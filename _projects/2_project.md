@@ -13,20 +13,28 @@ category: robotics
 **Method:** Inverse Kinematics + Imitation Learning (DAgger)  
 **Key Result:** 95% pick-and-place success rate
 
+<br>
+
 ### Overview
 
 Independently developed an **IK+IL combined learning framework** that significantly reduces dependency on teleoperation data. The core idea: use Inverse Kinematics to automatically generate diverse trajectory data, then apply DAgger-style training to blend IK-generated demonstrations with model inference progressively.
+
+<br>
 
 **Key achievements:**
 - **95% pick-and-place success** on Unitree G1 without heavy teleoperation
 - Drastically reduced human operator fatigue and data collection cost
 - Reusable framework extended to LG Energy Solution battery cell sorting task
 
+<br>
+
 ### Method
 
 1. **IK trajectory generation** — automatically create diverse manipulation trajectories from object poses using Inverse Kinematics
 2. **DAgger training** — progressively blend IK trajectories with model inference during training for stable policy improvement
 3. **SAM2 auto-labeling** — text/query-point input → automatic YOLO training data generation, eliminating manual annotation
+
+<br>
 
 ### Demo
 

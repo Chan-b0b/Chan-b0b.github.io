@@ -19,6 +19,8 @@ category: robotics
 
 Trained locomotion control policies for the Unitree G1/H1-2 humanoid robot using reinforcement learning in Isaac Lab simulation, then deployed to the physical robot. The key challenge was closing the sim-to-real gap.
 
+<br>
+
 **Key achievements:**
 - Stable flat-ground walking with simultaneous upper-body operation
 - Sim-to-Real robustness: compensated for physical asymmetries and hardware noise

@@ -13,19 +13,27 @@ category: robotics
 **Method:** VLA fine-tuning (GR00T, SmolVLA, ACT) + IK-based control  
 **Application:** Manufacturing PoC (LG Chem, LG Energy Solution), Logistics PoC (Market Kurly)
 
+<br>
+
 ### Overview
 
 Developed and deployed manipulation policies for the Unitree G1 humanoid robot targeting real manufacturing tasks. Combined VLA model fine-tuning with IK-based control for robust, deployable solutions.
+
+<br>
 
 **Key achievements:**
 - Pick-and-place in unstructured manufacturing environments
 - VLA models (GR00T, SmolVLA, ACT) fine-tuned for manufacturing-specific tasks
 - Successfully deployed across multiple client PoCs
 
+<br>
+
 **PoC Applications:**
 - **LG Chem** — Unitree A2 quadruped + arm for sample bottle collection automation
 - **LG Energy Solution** — Dexmate Vega for battery cell sorting with IK-based control
 - **Market Kurly** — Dexmate Vega for tote box stacking in logistics automation
+
+<br>
 
 ### Demo
 
