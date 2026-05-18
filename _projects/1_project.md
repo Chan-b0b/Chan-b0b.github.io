@@ -26,9 +26,15 @@ Trained locomotion control policies for the Unitree G1 humanoid robot using rein
 
 <div class="row mt-3 justify-content-center">
     <div class="col-4 mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/locomotion/G1_Locomotion_IsaacLab.webm" class="img-fluid rounded z-depth-1" controls=true %}
+    </div>
+    <div class="col-4 mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/locomotion/G1_Locomotion_Mujoco.webm" class="img-fluid rounded z-depth-1" controls=true %}
+    </div>
+    <div class="col-4 mt-3 mt-md-0">
         {% include video.liquid path="assets/video/locomotion/G1_Locomotion.mp4" class="img-fluid rounded z-depth-1" controls=true %}
     </div>
 </div>
 <div class="caption">
-    Unitree G1 humanoid locomotion policy deployed on real hardware, trained via reinforcement learning in Isaac Lab.
+    Training in Isaac Lab (left), sim-to-sim transfer to MuJoCo (middle), and deployment on real hardware (right).
 </div>
