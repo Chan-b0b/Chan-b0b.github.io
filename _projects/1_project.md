@@ -15,7 +15,7 @@ category: robotics
 
 ### Overview
 
-Trained locomotion control policies for the Unitree G1 humanoid robot using reinforcement learning in Isaac Lab simulation, then deployed to the physical robot. The key challenge was closing the sim-to-real gap under real manufacturing floor conditions.
+Trained locomotion control policies for the Unitree G1/H1-2 humanoid robot using reinforcement learning in Isaac Lab simulation, then deployed to the physical robot. The key challenge was closing the sim-to-real gap.
 
 **Key achievements:**
 - Stable flat-ground walking with simultaneous upper-body operation
@@ -25,16 +25,27 @@ Trained locomotion control policies for the Unitree G1 humanoid robot using rein
 ### Demo
 
 <div class="row mt-3 justify-content-center">
-    <div class="col-4 mt-3 mt-md-0">
+    <div class="col-5 mt-3 mt-md-0">
         {% include video.liquid path="assets/video/locomotion/G1_Locomotion_IsaacLab.webm" class="img-fluid rounded z-depth-1" controls=true %}
     </div>
-    <div class="col-4 mt-3 mt-md-0">
+    <div class="col-5 mt-3 mt-md-0">
         {% include video.liquid path="assets/video/locomotion/G1_Locomotion_Mujoco.webm" class="img-fluid rounded z-depth-1" controls=true %}
     </div>
-    <div class="col-4 mt-3 mt-md-0">
+</div>
+<div class="row mt-2 justify-content-center">
+    <div class="col-3 mt-3 mt-md-0">
         {% include video.liquid path="assets/video/locomotion/G1_Locomotion.mp4" class="img-fluid rounded z-depth-1" controls=true %}
     </div>
 </div>
 <div class="caption">
-    Training in Isaac Lab (left), sim-to-sim transfer to MuJoCo (middle), and deployment on real hardware (right).
+    Training in Isaac Lab (top-left), sim-to-sim transfer to MuJoCo (top-right), and deployment on real hardware (bottom).
+</div>
+
+<div class="row mt-3 justify-content-center">
+    <div class="col-5 mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/locomotion/H1_Squat_Arm_Move_IsaacLab.webm" class="img-fluid rounded z-depth-1" controls=true %}
+    </div>
+</div>
+<div class="caption">
+    H1-2 squat with simultaneous arm movement, trained in Isaac Lab.
 </div>
