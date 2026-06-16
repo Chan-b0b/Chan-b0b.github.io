@@ -65,7 +65,7 @@ cv:
           - Seungkeun Park
           - Taesu Cheong
         doi: 10.1109/ACCESS.2024.3506972
-        url: https://ieeexplore.ieee.org/document/10771609
+        url: https://ieeexplore.ieee.org/abstract/document/10769449
         publisher: IEEE Access
         date: "2024-11-27"
 
@@ -73,6 +73,7 @@ cv:
         authors:
           - "***Chanho Lee***"
           - David Han
+        url: https://www.e-jara.org/journal/view.html?uid=1528&vmd=Full
         publisher: Journal of Artificial Intelligence Research and Applications (JAIRA)
         date: "2025-11-30"
 
@@ -85,7 +86,7 @@ cv:
         date: "2022"
         summary: RL-based wireless channel access control competition, Electronics and Telecommunications Research Institute (ETRI)
 
-    skills:
+    Skills:
       - label: Programming
         details: "Python (Expert), C++ (Intermediate)"
 
@@ -101,7 +102,7 @@ cv:
       - label: Tools
         details: "Git, LeRobot, BlenderProc, Teleoperation pipelines"
 
-    languages:
+    Languages:
       - label: Korean
         details: Native
 
