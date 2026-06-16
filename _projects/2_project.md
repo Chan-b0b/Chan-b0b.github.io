@@ -7,7 +7,7 @@ importance: 2
 category: robotics
 ---
 
-**Platform:** Unitree G1 Humanoid, Dexmate Vega  
+**Platform:** Unitree G1, Dexmate Vega, AgileX Piper  
 **Method:** Inverse Kinematics + Imitation Learning (DAgger)  
 **Key Result:** 95% pick-and-place success rate
 

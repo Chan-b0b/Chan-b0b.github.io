@@ -7,7 +7,7 @@ importance: 3
 category: robotics
 ---
 
-**Platform:** Unitree G1, Dexmate Vega
+**Platform:** Unitree G1, Dexmate Vega <br>
 **Method:** VLA fine-tuning (GR00T, SmolVLA, ACT) + IK-based control  
 **Application:** Manufacturing PoC (LG Chem, LG Energy Solution), Logistics PoC (Market Kurly)
 
