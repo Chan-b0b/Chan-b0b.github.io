@@ -25,7 +25,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "AI Scientist at LG CNS Future Robotics Lab. Specializing in VLA models, humanoid robot control, and Sim-to-Real transfer.",
+          description: "AI Scientist at LG CNS Future Robotics Lab. Specializing in VLA models, humanoid robot control",
           section: "Navigation",
           handler: () => {
             window.location.href = "/cv/";
