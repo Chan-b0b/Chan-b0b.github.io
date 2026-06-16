@@ -6,7 +6,7 @@ cv:
   social_networks:
     - network: GitHub
       username: Chan-b0b
-  summary: "AI Scientist at LG CNS Future Robotics Lab, specializing in VLA/VLM models for humanoid robot control. Full-cycle experience from simulation environment construction to real-robot deployment and manufacturing PoC. Expert in reinforcement learning, Sim-to-Real transfer, and efficient data pipelines."
+  summary: "AI Scientist at LG CNS Future Robotics Lab, specializing in VLA/VLM models for humanoid robot control. Full-cycle experience from simulation environment construction to real-robot deployment and manufacturing PoC.<br>Expert in reinforcement learning, Sim-to-Real transfer, and efficient data pipelines."
 
   sections:
     Education:
@@ -40,10 +40,10 @@ cv:
         summary: "Future Robotics Lab — Research on VLA-based humanoid robot solutions for manufacturing."
         highlights:
           - "IK+IL learning framework (independently developed): **95% pick-and-place success** on Unitree G1, reduced teleoperation dependency"
-          - "SAM2-based auto-labeling system: text input → automatic YOLO training data generation, eliminating manual labeling"
-          - "Real-robot deployment: Unitree G1 and H1-2 humanoid locomotion and manipulation policies"
+          - "Real-robot deployment: Unitree G1/H1-2, Dexmate Vega1 humanoid locomotion and manipulation policies"
           - "VLA fine-tuning: GR00T, SmolVLA, ACT models adapted for manufacturing domain"
-          - "PoC clients: LG Chem, LG Energy Solution, Market Kurly, Daehan Steel"
+          - "SAM2-based auto-labeling system: text input → automatic YOLO training data generation, eliminating manual labeling"
+          - "PoC clients: LG Chem, LG Energy Solution, Market Kurly"
           - "Global collaboration: technical discussions with Skild, ARI Robotics (in English)"
 
       - company: LG CNS
