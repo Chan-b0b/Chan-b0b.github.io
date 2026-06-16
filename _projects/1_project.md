@@ -7,8 +7,6 @@ importance: 1
 category: robotics
 ---
 
-## Humanoid Locomotion Control
-
 **Platform:** Unitree G1 / H1-2 Humanoid  
 **Simulation:** Isaac Lab (NVIDIA), MuJoCo  
 **Algorithm:** PPO (Proximal Policy Optimization)

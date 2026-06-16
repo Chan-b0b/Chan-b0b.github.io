@@ -7,8 +7,6 @@ importance: 3
 category: robotics
 ---
 
-## Humanoid Manipulation
-
 **Platform:** Unitree G1, Dexmate Vega
 **Method:** VLA fine-tuning (GR00T, SmolVLA, ACT) + IK-based control  
 **Application:** Manufacturing PoC (LG Chem, LG Energy Solution), Logistics PoC (Market Kurly)
@@ -44,4 +42,18 @@ Developed and deployed manipulation policies for the Unitree G1 humanoid robot t
 </div>
 <div class="caption">
     Unitree G1 humanoid manipulation policy for manufacturing pick-and-place tasks.
+</div>
+
+<br>
+
+<div class="row mt-3 justify-content-center align-items-center">
+    <div class="col-md-6 mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/manipulation/Dex_manipulation_LGES.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+    </div>
+    <div class="col-md-3 mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/manipulation/Dex_manipulation_LGES_1.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+    </div>
+</div>
+<div class="caption">
+    Dexmate Vega humanoid performing battery cell picking during the LG Energy Solution manufacturing PoC.
 </div>

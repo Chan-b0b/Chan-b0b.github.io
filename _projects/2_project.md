@@ -7,8 +7,6 @@ importance: 2
 category: robotics
 ---
 
-## IK + Imitation Learning Framework
-
 **Platform:** Unitree G1 Humanoid, Dexmate Vega  
 **Method:** Inverse Kinematics + Imitation Learning (DAgger)  
 **Key Result:** 95% pick-and-place success rate
