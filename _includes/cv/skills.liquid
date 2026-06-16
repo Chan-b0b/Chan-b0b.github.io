@@ -9,7 +9,7 @@
         <i class="{{ entry.icon }}"></i>
       {% endif %}
       <strong>
-        {{- entry.name -}}
+        {%- if entry.name %}{{ entry.name }}{% elsif entry.label %}{{ entry.label }}{% endif -%}
         {%- if entry.level %} ({{ entry.level }}){% endif %}:</strong
       >
       {% if entry.keywords %}
@@ -20,6 +20,8 @@
             {{ keyword }},
           {% endif %}
         {% endfor %}
+      {% elsif entry.details %}
+        {{ entry.details }}
       {% endif %}
     </div>
   {% endfor %}

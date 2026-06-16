@@ -6,7 +6,7 @@ cv:
   social_networks:
     - network: GitHub
       username: Chan-b0b
-  summary: "AI Scientist at LG CNS Future Robotics Lab, specializing in VLA/VLM models for humanoid robot control. Full-cycle experience from simulation environment construction to real-robot deployment and manufacturing PoC.<br>Expert in reinforcement learning, Sim-to-Real transfer, and efficient data pipelines."
+  summary: "AI Scientist at LG CNS Future Robotics Lab, specializing in VLA/VLM models for humanoid robot control. Full-cycle experience from simulation environment construction to real-robot deployment and manufacturing PoC.<br>Expert in **Reinforcement Learning, Sim-to-Real transfer**, and **Efficient Data Pipelines**."
 
   sections:
     Education:
