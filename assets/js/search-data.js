@@ -52,12 +52,7 @@ ninja.data = [{
             window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
           
         },
-      },{id: "books-the-godfather",
-          title: 'The Godfather',
-          description: "",
-          section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
-            },},{id: "projects-humanoid-locomotion",
+      },{id: "projects-humanoid-locomotion",
           title: 'Humanoid Locomotion',
           description: "RL-based locomotion on Unitree G1 / H1-2 — from Isaac Lab simulation to real-robot deployment",
           section: "Projects",handler: () => {
