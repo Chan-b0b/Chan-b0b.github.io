@@ -20,7 +20,6 @@ cv:
           - "**GPA:** 4.19/4.5"
           - "**Thesis:** Dynamic-Persistent CSMA: A Reinforcement Learning Approach for Multi-User Channel Access"
           - "**Lab:** Supply Chain and Value Network Analysis Lab (Advisor: Prof. Taesu Cheong)"
-          - "**Visiting Scholar:** Drexel University, USA (Dec 2022 – Aug 2023, KIAT-funded)"
 
       - institution: Korea University
         area: "Mechanical Engineering (double major: Industrial & Management Engineering)"
@@ -57,6 +56,18 @@ cv:
           - "Optimized to 30-second processing per truck; fully deployed to production"
           - "Joint venture established with client; system commercialized"
           - "CLIP-based VLM experiments: scrap characteristic–image matching"
+
+      - company: Drexel University
+        position: Visiting Scholar
+        location: Philadelphia, USA
+        start_date: 2021-12
+        end_date: 2022-08
+        summary: "KIAT-funded research residency — multi-view 3D reconstruction and view planning (Advisor: Prof. David Han)."
+        highlights:
+          - "Proposed **PIFu-A**, a pixel-aligned implicit function with an attention-based encoder for multi-view 3D reconstruction"
+          - "Built an **RL-based (PPO) next-best-view planning** architecture to minimize the views required for reconstruction"
+          - "Showed view planning is more effective for geometric than semantic reconstruction models; validated on ShapeNet (13 categories, ~39,699 models)"
+          - "Independently scoped and delivered the research within an 8-month residency → first-author paper (JAIRA, 2025)"
 
     Publications:
       - title: "Dynamic-Persistent CSMA: A Reinforcement Learning Approach for Multi-User Channel Access"
