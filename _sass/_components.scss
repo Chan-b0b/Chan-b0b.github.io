@@ -259,3 +259,18 @@ ul.task-list input[type="checkbox"] {
 .d2h-diff-table {
   position: relative;
 }
+
+// 16:9 video embeds
+
+.video-16x9 {
+  figure {
+    margin: 0;
+  }
+
+  iframe,
+  video {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
+  }
+}
