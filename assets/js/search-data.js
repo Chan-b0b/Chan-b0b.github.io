@@ -23,6 +23,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/projects/";
           },
+        },{id: "nav-media",
+          title: "Media",
+          description: "Interviews, press coverage, and video features.",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/media/";
+          },
         },{id: "nav-cv",
           title: "CV",
           description: "AI Scientist at LG CNS Future Robotics Lab. Specializing in VLA models, humanoid robot control",
@@ -52,7 +59,13 @@ ninja.data = [{
             window.open("https://medium.com/@al-folio/displaying-external-posts-on-your-al-folio-blog-b60a1d241a0a?source=rss-17feae71c3c4------2", "_blank");
           
         },
-      },{id: "projects-humanoid-locomotion",
+      },{id: "news-featured-in-lg-science-park-s-young-researcher-interview-series-read-the-interview",
+          title: 'Featured in LG Science Park’s Young Researcher interview series — read the interview....',
+          description: "",
+          section: "News",},{id: "news-appeared-on-lg-cns-project-rx-ep-2-아무것도-못하는-로봇을-현장-에이스로-키워내는-학습-비법",
+          title: 'Appeared on LG CNS Project RX Ep.2 — 아무것도 못하는 로봇을 현장 에이스로...',
+          description: "",
+          section: "News",},{id: "projects-humanoid-locomotion",
           title: 'Humanoid Locomotion',
           description: "RL-based locomotion on Unitree G1 / H1-2 — from Isaac Lab simulation to real-robot deployment",
           section: "Projects",handler: () => {
