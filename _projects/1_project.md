@@ -20,6 +20,7 @@ Trained locomotion control policies for the Unitree G1/H1-2 humanoid robot using
 <br>
 
 **Key achievements:**
+
 - Stable flat-ground walking with simultaneous upper-body operation
 - Sim-to-Real robustness: compensated for physical asymmetries and hardware noise
 - Policy generalization to unseen environmental disturbances

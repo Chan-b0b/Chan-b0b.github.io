@@ -20,6 +20,7 @@ Independently developed an **IK+IL combined learning framework** that significan
 <br>
 
 **Key achievements:**
+
 - **95% pick-and-place success** on Unitree G1 without heavy teleoperation
 - Drastically reduced human operator fatigue and data collection cost
 - Reusable framework extended to LG Energy Solution battery cell sorting task
@@ -47,5 +48,3 @@ Independently developed an **IK+IL combined learning framework** that significan
 <div class="caption">
     IK+IL framework in action: automatic trajectory generation (left) and imitation learning policy execution (right).
 </div>
-
-

@@ -20,6 +20,7 @@ Developed and deployed manipulation policies for the Unitree G1 humanoid robot t
 <br>
 
 **Key achievements:**
+
 - Pick-and-place in unstructured manufacturing environments
 - VLA models (GR00T, SmolVLA, ACT) fine-tuned for manufacturing-specific tasks
 - Successfully deployed across multiple client PoCs
@@ -27,6 +28,7 @@ Developed and deployed manipulation policies for the Unitree G1 humanoid robot t
 <br>
 
 **PoC Applications:**
+
 - **LG Chem** — Unitree A2 quadruped + arm for sample bottle collection automation
 - **LG Energy Solution** — Dexmate Vega for battery cell sorting with IK-based control
 - **Market Kurly** — Dexmate Vega for tote box stacking in logistics automation
