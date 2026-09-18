@@ -85,6 +85,11 @@ ninja.data = [{
           description: "RL-based dynamic juggling on Dexmate — training in Isaac Lab",
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_project/";
+            },},{id: "projects-gemini-er",
+          title: 'Gemini-ER',
+          description: "Gesture-instruction manipulation on Dexmate Vega 1P — Gemini Embodied Reasoning for scene understanding &amp; planning, IK-based execution",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/5_project/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
