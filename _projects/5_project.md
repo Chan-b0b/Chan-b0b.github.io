@@ -2,7 +2,7 @@
 layout: page
 title: Gemini-ER
 description: Gesture-instruction manipulation on Dexmate Vega 1P — Gemini Embodied Reasoning for scene understanding & planning, IK-based execution
-img:
+img: assets/img/gemini_er/thumbnail.jpg
 importance: 5
 category: robotics
 ---

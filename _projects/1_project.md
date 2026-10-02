@@ -2,7 +2,7 @@
 layout: page
 title: Humanoid Locomotion
 description: RL-based locomotion on Unitree G1 / H1-2 — from Isaac Lab simulation to real-robot deployment
-img:
+img: assets/img/locomotion/thumbnail.jpg
 importance: 1
 category: robotics
 ---

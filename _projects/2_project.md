@@ -2,7 +2,7 @@
 layout: page
 title: IK + Imitation Learning
 description: Independently developed IK+IL framework achieving 95% pick-and-place success on Unitree G1
-img:
+img: assets/img/ik_il/thumbnail.jpg
 importance: 2
 category: robotics
 ---

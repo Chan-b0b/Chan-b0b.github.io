@@ -2,7 +2,7 @@
 layout: page
 title: Manipulation PoCs
 description: Vision-based pick-and-place manipulation with Unitree G1 in manufacturing environments
-img:
+img: assets/img/manipulation/thumbnail.jpg
 importance: 3
 category: robotics
 ---

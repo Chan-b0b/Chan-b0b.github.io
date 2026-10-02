@@ -2,7 +2,7 @@
 layout: page
 title: Jev Manipulation (WIP)
 description: A LoRA-tuned Qwen3.5-4B as a "System One" robot policy — actions read as multiple-choice probabilities, from camera images only
-img:
+img: assets/img/jev/thumbnail.jpg
 importance: 6
 category: robotics
 ---
