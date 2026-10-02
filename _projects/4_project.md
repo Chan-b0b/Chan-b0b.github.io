@@ -30,3 +30,16 @@ Training a Dexmate arm to juggle using reinforcement learning in Isaac Lab. Unli
 <div class="caption">
     Massively parallel training in Isaac Lab — thousands of Dexmate instances learning to juggle simultaneously.
 </div>
+
+<br>
+
+### Demo
+
+<div class="row mt-3 justify-content-center">
+    <div class="col-8 mt-3 mt-md-0">
+        {% include video.liquid path="assets/video/juggling/Juggling.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+    </div>
+</div>
+<div class="caption">
+    Juggling policy rollout.
+</div>

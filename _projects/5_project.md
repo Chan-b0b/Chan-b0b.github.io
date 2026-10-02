@@ -28,11 +28,11 @@ Used Gemini-ER to interpret gestural instructions given to the robot, plan the c
 
 ### Demo
 
-<div class="row mt-3 justify-content-center">
+<div class="row mt-3 justify-content-center align-items-center">
     <div class="col-6 mt-3 mt-md-0">
         {% include video.liquid path="assets/video/gemini_er/Side.mp4" class="img-fluid rounded z-depth-1" controls=true %}
     </div>
-    <div class="col-4 mt-3 mt-md-0">
+    <div class="col-6 mt-3 mt-md-0">
         {% include video.liquid path="assets/video/gemini_er/head.mp4" class="img-fluid rounded z-depth-1" controls=true %}
     </div>
 </div>
