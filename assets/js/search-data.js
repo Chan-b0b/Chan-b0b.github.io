@@ -90,6 +90,11 @@ ninja.data = [{
           description: "Gesture-instruction manipulation on Dexmate Vega 1P — Gemini Embodied Reasoning for scene understanding &amp; planning, IK-based execution",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_project/";
+            },},{id: "projects-jev-manipulation-wip",
+          title: 'Jev Manipulation (WIP)',
+          description: "A LoRA-tuned Qwen3.5-4B as a &quot;System One&quot; robot policy — actions read as multiple-choice probabilities, from camera images only",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/6_project/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
