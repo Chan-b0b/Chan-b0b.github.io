@@ -2,7 +2,7 @@
 layout: page
 title: Robotic Juggling (WIP)
 description: RL-based dynamic juggling on Dexmate — training in Isaac Lab
-img: assets/img/juggling/dexmate_juggling_isaaclab.png
+img: assets/img/juggling/thumbnail.jpg
 importance: 4
 category: robotics
 ---
