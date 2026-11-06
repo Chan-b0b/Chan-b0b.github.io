@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Real2Sim
-description: Rebuilding the battery-cell handling PoC cell in simulation — 16 parallel environments of a mobile dual-arm humanoid running the full pick-and-place sequence
+description: Rebuilding a real manufacturing cell in simulation to collect scalable training data for VLA policies and world models
 img: assets/img/real2sim/thumbnail.jpg
 importance: 7
 category: robotics
@@ -9,22 +9,22 @@ category: robotics
 
 **Platform:** Dexmate Vega (mobile dual-arm humanoid)  
 **Simulation:** Isaac Lab (NVIDIA)  
-**Task:** Battery-cell pick-and-place from source trays to target trays with suction grippers
+**Purpose:** Scalable data collection for VLA policy and world model training  
 
 <br>
 
 ### Overview
 
-Recreated the real manufacturing cell from the [battery cell sorting PoC](/projects/3_project/) as a simulation scene, so that the same task can be run, randomized, and evaluated at scale without occupying the physical robot. Each environment contains a mobile dual-arm humanoid, a set of source trays and target trays, and the same task logic used on the real system.
+Recreated the real manufacturing cell from the [battery cell sorting PoC](/projects/3_project/) in simulation. On the real robot, every demonstration costs operator time and machine time, and the resulting dataset is small, narrow, and hard to extend. By moving the same task into a simulated copy of the environment, data for the next generation of models can be generated continuously and at scale.
 
 <br>
 
 **Key points:**
 
-- **16 parallel cells** running independent episodes of the full sequence: drive to the source station, pick a battery cell with suction, drive to the target station, place, and restage for the next layer
-- **Contact-aware placement:** the part is lowered at a fixed speed until a contact force threshold is reached, then the pump is released and the arm retracts — mirroring the real deployment logic
-- **Randomized source / target assignment** per episode, so trajectories cover the whole cell rather than one fixed route
-- **Live per-environment status overlay:** current episode, source / target tray, sub-step, and cumulative layers completed and success count
+- **Real-to-sim reconstruction:** the physical cell — robot, source / target trays, parts, and the task flow used in deployment — is rebuilt as a simulation scene, so simulated episodes follow the same workflow as the real system
+- **Scalable data collection:** many environments run in parallel with randomized layouts and assignments, producing far more diverse trajectories than real-robot teleoperation could in the same time
+- **Training data for VLA policies:** collected episodes pair camera observations and language instructions with robot actions, providing the data needed to fine-tune vision-language-action models for this task
+- **Toward world models:** the same rollouts also serve as observation-action sequences for training world models that predict how the scene evolves under the robot's actions, with the longer-term goal of planning and evaluating policies inside the learned model
 
 <br>
 
