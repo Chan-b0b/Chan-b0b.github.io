@@ -97,7 +97,7 @@ ninja.data = [{
               window.location.href = "/projects/6_project/";
             },},{id: "projects-real2sim",
           title: 'Real2Sim',
-          description: "Rebuilding the battery-cell handling PoC cell in simulation — 16 parallel environments of a mobile dual-arm humanoid running the full pick-and-place sequence",
+          description: "Rebuilding a real manufacturing cell in simulation to collect scalable training data for VLA policies and world models",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_project/";
             },},{id: "teachings-data-science-fundamentals",
