@@ -70,6 +70,12 @@ cv:
           - "Independently scoped and delivered the research within an 8-month residency → first-author paper (JAIRA, 2025)"
 
     Publications:
+      - title: "How Force Enters Matters: FiLM Conditioning for Behavior-Cloned VLA Policies"
+        authors:
+          - "***Chanho Lee***"
+        publisher: "Under review — IEEE International Conference on Robotics and Automation (ICRA) 2027"
+        date: "2026-09-15"
+
       - title: "Dynamic-Persistent CSMA: A Reinforcement Learning Approach for Multi-User Channel Access"
         authors:
           - "***Chanho Lee***"
