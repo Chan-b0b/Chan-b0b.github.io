@@ -52,24 +52,6 @@ The base model was given the same rules in the prompt; it already fails at compa
 
 <br>
 
-### Real-Robot Test
-
-The policy was also tested on a real Dexmate robot, with objects it had never seen before: a cup, a Rubik's Cube and a golf ball. It still carried out the tasks it was given — pushing, and picking an object up and placing it — which suggests that what it learned is tied to the instruction and the scene in front of it, not to the particular objects it was trained on.
-
-<div class="row mt-3 justify-content-center">
-    <div class="col-6 col-md-4">
-        {% include video.liquid path="assets/video/jev/push-cup-to-rubik.mp4" class="img-fluid rounded z-depth-1" controls=true %}
-    </div>
-    <div class="col-6 col-md-4">
-        {% include video.liquid path="assets/video/jev/ball-on-cup.mp4" class="img-fluid rounded z-depth-1" controls=true %}
-    </div>
-</div>
-<div class="caption">
-    Left: push — the robot pushes the cup to the Rubik's Cube. Right: pick and place — the robot picks up the golf ball and places it on the cup. None of these objects were seen in training.
-</div>
-
-<br>
-
 ### Demo
 
 <div class="row mt-3 justify-content-center">
@@ -98,3 +80,22 @@ The policy was also tested on a real Dexmate robot, with objects it had never se
 <div class="caption">
     soccer, with randomized colors. Each video shows the three camera inputs and, on the right, the model's probability for every option; the boxed option is the correct label.
 </div>
+
+<br>
+
+### Real-Robot Test
+
+The policy was also tested on a real Dexmate robot, with objects it had never seen before: a cup, a Rubik's Cube and a golf ball. It still carried out the tasks it was given — pushing, and picking an object up and placing it — which suggests that what it learned is tied to the instruction and the scene in front of it, not to the particular objects it was trained on.
+
+<div class="row mt-3 justify-content-center">
+    <div class="col-6 col-md-4">
+        {% include video.liquid path="assets/video/jev/push-cup-to-rubik.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+    </div>
+    <div class="col-6 col-md-4">
+        {% include video.liquid path="assets/video/jev/ball-on-cup.mp4" class="img-fluid rounded z-depth-1" controls=true %}
+    </div>
+</div>
+<div class="caption">
+    Left: push — the robot pushes the cup to the Rubik's Cube. Right: pick and place — the robot picks up the golf ball and places it on the cup. None of these objects were seen in training.
+</div>
+
