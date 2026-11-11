@@ -96,6 +96,6 @@ The policy was also tested on a real Dexmate robot, with objects it had never se
     </div>
 </div>
 <div class="caption">
-    Left: push — the robot pushes the cup to the Rubik's Cube. Right: pick and place — the robot picks up the golf ball and places it on the cup. None of these objects were seen in training.
+    Left: push — the robot pushes the cup to the Rubik's Cube. Right: pick and place — the robot picks up the golf ball and places it on the cup. None of these objects were seen in training. Videos are shown at 4× speed.
 </div>
 
